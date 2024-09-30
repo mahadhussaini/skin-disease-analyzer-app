@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_regular.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_regular.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontisto.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontisto.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_foundation.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_foundation.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_about.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/src_assets_about.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_sec.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/src_assets_sec.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.loginsignupapp-main-42:/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_materialcommunityicons.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_materialcommunityicons.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_man.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/src_assets_man.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_brands.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_brands.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_instruction.jpg.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/src_assets_instruction.jpg"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_entypo.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_entypo.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_materialicons.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_materialicons.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_brands.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_brands.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_simplelineicons.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_simplelineicons.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_logo.png.flat",
+        "source": "com.loginsignupapp-main-42:/drawable-mdpi/src_assets_logo.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.loginsignupapp-main-42:/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_zocial.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_zocial.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.loginsignupapp-main-42:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_logowhite.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/src_assets_logowhite.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_solid.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_solid.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_google.png.flat",
+        "source": "com.loginsignupapp-main-42:/drawable-mdpi/src_assets_google.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_evilicons.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_evilicons.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_octicons.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_octicons.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.loginsignupapp-main-42:/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_feather.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_feather.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_ionicons.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_ionicons.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_third.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/src_assets_third.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.loginsignupapp-main-42:/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_antdesign.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_antdesign.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_regular.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_regular.ttf"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_logoblue.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/src_assets_logoblue.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.loginsignupapp-main-42:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-mdpi_src_assets_first.png.flat",
+        "source": "com.loginsignupapp-res-36:/drawable-mdpi/src_assets_first.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.loginsignupapp-main-42:/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.loginsignupapp-merged_res-41:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_solid.ttf.flat",
+        "source": "com.loginsignupapp-main-42:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_solid.ttf"
+    }
+]
