@@ -16,6 +16,7 @@ import {useNavigation} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {auth} from './Firebase';
 
+// Modify the HomeScreen component to remove 'CAPTURE_IMAGE' from the menu
 const HomeScreen = () => {
   const navigation = useNavigation();
   const {width, height} = Dimensions.get('window');
@@ -43,14 +44,7 @@ const HomeScreen = () => {
       <Modal visible={isMenuVisible} transparent={true} animationType="slide">
         <View style={styles.sidebar}>
           <Text style={styles.menuTitle}>Menu</Text>
-          {[
-            'ABOUT',
-            'TERMS',
-            'PRIVACY',
-            'CAPTURE_IMAGE',
-            'UPLOAD',
-            'SETTINGS',
-          ].map(screen => (
+          {['ABOUT', 'TERMS', 'PRIVACY', 'UPLOAD', 'SETTINGS'].map(screen => (
             <TouchableOpacity
               key={screen}
               style={styles.menuButton}
@@ -69,41 +63,6 @@ const HomeScreen = () => {
           </TouchableOpacity>
         </View>
       </Modal>
-
-      <TouchableOpacity
-        style={styles.menuIcon}
-        onPress={toggleMenu}
-        accessibilityRole="button">
-        <Icon name="menu" size={30} color={colors.primary} />
-      </TouchableOpacity>
-
-      <View style={styles.header}>
-        <Image
-          source={require('../assets/logo-blue.png')}
-          style={[styles.logo, {height: height * 0.07, width: width * 0.4}]}
-          accessibilityLabel="App logo"
-        />
-      </View>
-
-      <Image
-        source={require('../assets/man.png')}
-        style={[styles.bannerImage, {height: height * 0.3, width: width * 0.6}]}
-        accessibilityLabel="Banner image of a man"
-      />
-      <Text style={styles.title}>Skin Disease Analyzer</Text>
-      <Text style={styles.subTitle}>
-        Instant skin disease detection with AI technology – accessible anytime,
-        anywhere.
-      </Text>
-      {userName ? (
-        <View style={styles.welcomeContainer}>
-          <Text style={styles.welcomeText}>Welcome, {userName}!</Text>
-          <Text style={styles.welcomeDescription}>
-            We are thrilled to have you on board. Start analyzing your skin
-            health now!
-          </Text>
-        </View>
-      ) : null}
     </ScrollView>
   );
 };

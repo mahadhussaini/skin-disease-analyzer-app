@@ -1,4 +1,4 @@
-#Mon Sep 30 17:43:53 PKT 2024
+#Sat Oct 05 20:11:54 PKT 2024
 base.2=D\:\\skin-app\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
 path.2=classes2.dex
 base.1=D\:\\skin-app\\android\\app\\build\\intermediates\\global_synthetics_dex\\release\\classes.dex

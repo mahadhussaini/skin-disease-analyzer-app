@@ -52,6 +52,11 @@ const UploadScreen = () => {
     setErrorMessage('');
   };
 
+  // New handler for capturing image using camera
+  const handleCaptureImage = () => {
+    navigation.navigate('CaptureImageScreen');
+  };
+
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
       <View style={styles.container}>
@@ -63,50 +68,17 @@ const UploadScreen = () => {
           Treat it
         </Text>
 
-        <Image
-          source={require('../assets/first.png')}
-          style={styles.bannerImage}
-          accessibilityLabel="Skin condition identification banner"
-        />
-        <Text style={styles.subHeading}>
-          It's as Simple as Uploading a Photo
-        </Text>
-
-        <Image
-          source={require('../assets/instruction.jpg')}
-          style={styles.bannerImage}
-          accessibilityLabel="Instructions for uploading a photo"
-        />
-        <Text style={styles.subHeading}>
-          Follow our Instructions to Upload a Photo of a Skin Problem
-        </Text>
-
-        <Image
-          source={require('../assets/sec.png')}
-          style={styles.bannerImage}
-          accessibilityLabel="AI analysis of uploaded photo"
-        />
-        <Text style={styles.subHeading}>We'll Analyze the Photo</Text>
-        <Text style={styles.subTitle}>
-          Our advanced AI, developed by leading experts, will instantly provide
-          a preliminary diagnosis and general precautions.
-        </Text>
-
-        <Image
-          source={require('../assets/third.png')}
-          style={styles.bannerImage}
-          accessibilityLabel="Getting answers from the analysis"
-        />
-        <Text style={styles.subHeading}>Get Answers Instantly</Text>
-        <Text style={styles.subTitle}>
-          We provide you with an accurate list of possible skin conditions and
-          recommended precautions.
-        </Text>
-
         <TouchableOpacity
           style={styles.uploadButton}
           onPress={handleUploadImage}>
           <Text style={styles.uploadButtonText}>Upload Image</Text>
+        </TouchableOpacity>
+
+        {/* Add a button to capture image */}
+        <TouchableOpacity
+          style={styles.captureButton}
+          onPress={handleCaptureImage}>
+          <Text style={styles.uploadButtonText}>Capture Image</Text>
         </TouchableOpacity>
 
         {selectedImage && (
@@ -189,6 +161,15 @@ const styles = StyleSheet.create({
     color: colors.white,
     fontSize: 18,
     fontFamily: fonts.SemiBold,
+  },
+  captureButton: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '48%',
+    borderRadius: 100,
+    padding: 10,
+    backgroundColor: colors.primary,
+    marginTop: 10,
   },
   selectedImage: {
     width: '100%',
