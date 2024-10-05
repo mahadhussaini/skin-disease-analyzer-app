@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 import {launchImageLibrary} from 'react-native-image-picker';
 import {useNavigation} from '@react-navigation/native';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import {colors} from '../utils/colors';
 import {fonts} from '../utils/fonts';
 
@@ -18,6 +19,10 @@ const UploadScreen = () => {
   const navigation = useNavigation();
   const [selectedImage, setSelectedImage] = useState(null);
   const [errorMessage, setErrorMessage] = useState('');
+
+  const handleGoBack = () => {
+    navigation.goBack();
+  };
 
   const handleUploadImage = () => {
     const options = {
@@ -52,13 +57,24 @@ const UploadScreen = () => {
     setErrorMessage('');
   };
 
-  // New handler for capturing image using camera
   const handleCaptureImage = () => {
-    navigation.navigate('CaptureImageScreen');
+    navigation.navigate('CAPTURE_IMAGE');
   };
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
+      <TouchableOpacity
+        style={styles.backButtonWrapper}
+        onPress={handleGoBack}
+        accessibilityRole="button"
+        accessibilityLabel="Go back to the previous screen">
+        <Ionicons
+          name={'arrow-back-outline'}
+          color={colors.primary}
+          size={25}
+        />
+      </TouchableOpacity>
+
       <View style={styles.container}>
         <Text style={styles.heading}>
           Identify Your Skin Condition With Artificial Intelligence
@@ -68,13 +84,48 @@ const UploadScreen = () => {
           Treat it
         </Text>
 
+        <Image
+          source={require('../assets/first.png')}
+          style={styles.bannerImage}
+        />
+        <Text style={styles.subHeading}>
+          It's as Simple as Uploading a Photo
+        </Text>
+
+        <Image
+          source={require('../assets/instruction.jpg')}
+          style={styles.bannerImage}
+        />
+        <Text style={styles.subHeading}>
+          Follow our Instructions to Upload a Photo of a Skin Problem
+        </Text>
+
+        <Image
+          source={require('../assets/sec.png')}
+          style={styles.bannerImage}
+        />
+        <Text style={styles.subHeading}>We'll Analyze the Photo</Text>
+        <Text style={styles.subTitle}>
+          Our advanced AI, developed by leading experts, will instantly provide
+          a preliminary diagnosis and general precautions.
+        </Text>
+
+        <Image
+          source={require('../assets/third.png')}
+          style={styles.bannerImage}
+        />
+        <Text style={styles.subHeading}>Get Answers Instantly</Text>
+        <Text style={styles.subTitle}>
+          We provide you with an accurate list of possible skin conditions and
+          recommended precautions.
+        </Text>
+
         <TouchableOpacity
           style={styles.uploadButton}
           onPress={handleUploadImage}>
           <Text style={styles.uploadButtonText}>Upload Image</Text>
         </TouchableOpacity>
 
-        {/* Add a button to capture image */}
         <TouchableOpacity
           style={styles.captureButton}
           onPress={handleCaptureImage}>
@@ -113,6 +164,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: colors.white,
+    paddingVertical: 20,
+  },
+  backButtonWrapper: {
+    alignSelf: 'flex-start',
+    marginBottom: 15,
+    paddingHorizontal: 20,
   },
   container: {
     padding: 20,
@@ -130,7 +187,7 @@ const styles = StyleSheet.create({
     fontFamily: fonts.Regular,
     color: colors.primary,
     marginTop: 10,
-    marginBottom: 5,
+    marginBottom: 10,
     textAlign: 'center',
   },
   subTitle: {
@@ -145,14 +202,14 @@ const styles = StyleSheet.create({
     height: 150,
     resizeMode: 'cover',
     borderRadius: 10,
-    marginBottom: 10,
+    marginBottom: 15,
   },
   uploadButton: {
     justifyContent: 'center',
     alignItems: 'center',
-    width: '48%',
+    width: '80%',
     borderRadius: 100,
-    padding: 10,
+    paddingVertical: 12,
     backgroundColor: colors.primary,
     marginTop: 20,
     marginBottom: 20,
@@ -165,11 +222,17 @@ const styles = StyleSheet.create({
   captureButton: {
     justifyContent: 'center',
     alignItems: 'center',
-    width: '48%',
+    width: '80%',
     borderRadius: 100,
-    padding: 10,
+    paddingVertical: 12,
     backgroundColor: colors.primary,
-    marginTop: 10,
+    marginTop: 20,
+    marginBottom: 20,
+  },
+  captureButtonText: {
+    color: colors.white,
+    fontSize: 18,
+    fontFamily: fonts.SemiBold,
   },
   selectedImage: {
     width: '100%',
@@ -177,6 +240,7 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
     borderRadius: 10,
     marginTop: 20,
+    marginBottom: 20,
   },
   error: {
     color: 'red',
@@ -186,9 +250,9 @@ const styles = StyleSheet.create({
   resultButton: {
     justifyContent: 'center',
     alignItems: 'center',
-    width: '48%',
+    width: '80%',
     borderRadius: 100,
-    padding: 10,
+    paddingVertical: 12,
     backgroundColor: colors.primary,
     marginTop: 20,
     marginBottom: 10,
@@ -201,10 +265,11 @@ const styles = StyleSheet.create({
   removeButton: {
     justifyContent: 'center',
     alignItems: 'center',
-    width: '48%',
+    width: '80%',
     borderRadius: 100,
-    padding: 10,
+    paddingVertical: 12,
     backgroundColor: colors.primary,
+    marginTop: 10,
   },
   removeButtonText: {
     color: colors.white,
